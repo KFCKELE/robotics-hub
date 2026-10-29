@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* 极简半透明工程级滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.45);
+  border-radius: 9999px;
+  margin: 0 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.28);
+  border-radius: 9999px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* 碰到时从浅透明变成半透明高亮 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.58);
+}
+
+/* 按住时变为实体深灰 */
+::-webkit-scrollbar-thumb:active {
+  background: rgba(148, 163, 184, 0.9);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox 滚动条支持 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.35) rgba(15, 23, 42, 0.45);
+}

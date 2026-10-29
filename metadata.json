@@ -1,0 +1,8 @@
+{
+  "name": "Robotics & Mechatronics Project Workbench",
+  "description": "面向 OpenArm 六轴达妙无刷电机机械臂、AmazingHand 仿生绳驱机械手、SolidWorks 风格 3D 有限元受力分析 (FEA) 与 STP 模型强度校核、DFM 敏捷制造与低成本工艺路径规划器、3MF 切片与 3D 打印制造资产库、自研机械结构库、STM32/ESP32 FOC 主控套件与执行器调零标定的综合研发工程工作台，包含任务目录、嵌入式代码透视镜、工程仿真计算台与面试技术攻防系统",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
